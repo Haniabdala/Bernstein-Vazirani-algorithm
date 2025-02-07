@@ -33,6 +33,3 @@ The **Bernstein-Vazirani algorithm** finds \( s \) in **one query** using **Hada
 
 ## Quantum Query Complexity  
 The **Bernstein-Vazirani algorithm** requires only **one query**, offering an **exponential speedup** over the classical method, which requires \( n \) queries.
-
-## Conclusion  
-The **Bernstein-Vazirani algorithm** demonstrates how quantum computers can efficiently extract hidden patterns in a function with a significant speedup over classical methods. Instead of making \( n \) queries, the quantum approach finds the hidden string in just **one query**.
