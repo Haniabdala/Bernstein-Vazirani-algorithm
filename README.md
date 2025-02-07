@@ -1,22 +1,7 @@
 # Bernstein-Vazirani Algorithm
 
 ## Overview  
-The **Bernstein-Vazirani algorithm** is a quantum algorithm that efficiently determines a hidden binary string by querying an oracle only **once**, whereas a classical algorithm would require multiple queries. It showcases quantum speedup by leveraging **superposition** and **interference**.
-
-## Problem Statement  
-Given a function \( f: \{0, 1\}^n \to \{0, 1\} \), defined as:
-
-\[
-f(x) = s \cdot x \mod 2
-\]
-
-where \( s \) is an unknown **n-bit hidden string**, and \( x \) is an \( n \)-bit input. The dot product \( s \cdot x \) is computed modulo 2 as:
-
-\[
-s \cdot x = s_0 x_0 \oplus s_1 x_1 \oplus \dots \oplus s_{n-1} x_{n-1}
-\]
-
-The task is to determine \( s \) using the fewest queries to \( f \).
+The **Bernstein-Vazirani algorithm** is a quantum algorithm that efficiently determines a hidden binary string by querying an oracle only **once**, whereas a classical algorithm would require multiple queries.
 
 ## Classical Approach  
 A classical algorithm determines \( s \) by querying \( f \) for different values of \( x \):
